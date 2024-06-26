@@ -1,0 +1,95 @@
+body {
+    background: linear-gradient(to bottom, #9A8CE5, #D7A2E0);
+    color: #FFFFFF;
+    margin: 0; /* Remove as margens do corpo */
+    padding: 0; /* Remove os preenchimentos do corpo */
+    overflow-x: hidden; /* Remove a barra de rolagem horizontal */
+}
+
+.card {
+    background-color: #D7A2E0;
+    border-radius: 15px;
+    overflow: hidden;
+    height: calc(100vh - 70px); /* Ajuste a altura conforme necessário */
+    position: relative;
+    margin: 0; /* Remove a margem do card */
+}
+
+.card-header {
+    background-color: transparent;
+    border-bottom: none;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #FFFFFF;
+    padding: 15px; /* Adiciona preenchimento ao cabeçalho */
+    margin: 0; /* Remove a margem do cabeçalho */
+}
+
+.list-group {
+    overflow-y: scroll;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    border-radius: 0 0 15px 15px; /* Arredonda os cantos inferiores */
+}
+
+.list-group-item {
+    background-color: #D7A2E0;
+    color: #FFFFFF;
+    border: none;
+    padding: 15px; /* Adiciona preenchimento aos itens da lista */
+    margin: 0; /* Remove a margem dos itens da lista */
+}
+
+.custom-navbar {
+    background-color: rgba(154, 140, 229, 0.9);
+    border-radius: 15px 15px 0 0;
+    padding: 10px 0;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.custom-navbar .nav-link {
+    color: #FFFFFF;
+}
+
+.custom-navbar .nav-link.active {
+    color: #D7A2E0;
+    font-weight: bold;
+}
+
+.custom-navbar .nav-link img {
+    margin-bottom: 4px;
+    filter: invert(27%) sepia(34%) saturate(1502%) hue-rotate(206deg) brightness(90%) contrast(92%);
+}
+
+.custom-navbar-container {
+    width: 100%;
+    padding: 0;
+}
+
+.navbar {
+    background-color: rgba(154, 140, 229, 0.9);
+    border-radius: 15px 15px 0 0;
+    margin: 0; /* Remove a margem do navbar */
+}
+
+.icon-color img {
+    filter: none !important;
+    color: #FFFFFF !important;
+}
+    
+.icon-color {
+    color: #FFFFFF !important;
+}
+
+.icon-color.active img {
+    filter: invert(31%) sepia(73%) saturate(455%) hue-rotate(210deg) brightness(84%) contrast(108%) !important;
+}
+
+.active.icon-color {
+    color: #4E4095 !important;
+}
